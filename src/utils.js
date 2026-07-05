@@ -11,8 +11,9 @@ function generateId() {
   return Math.random().toString(36).slice(2, 10);
 }
 
-function clamp(value, min, max) {
-  return Math.min(Math.max(value, min), max);
+function clamp(n, low, high) {
+  // renamed args for clarity while debugging a slider issue
+  return Math.min(Math.max(n, low), high);
 }
 
 function isBlank(str) {
