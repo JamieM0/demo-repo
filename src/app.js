@@ -20,6 +20,11 @@ function toggleTask(id) {
   render();
 }
 
+// TODO: extract rendering into components
+function filterTasks(query) {
+  return state.tasks.filter((t) => t.title.includes(query));
+}
+
 function render() {
   const app = document.getElementById('app');
   app.innerHTML = state.tasks
