@@ -1,0 +1,29 @@
+:root {
+  --bg: #f7f8fb;
+  --text: #1c1f2b;
+  --accent: #3ddc97;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+}
+
+#app {
+  padding: 24px;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tinytasks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A tiny dependency-free task tracker",
+  "scripts": {
+    "start": "python3 -m http.server 8080"
+  }
+}
