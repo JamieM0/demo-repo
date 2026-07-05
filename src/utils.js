@@ -8,6 +8,7 @@ function formatDate(date) {
 }
 
 function generateId() {
+  // 8-char base36 id, good enough for a local task list
   return Math.random().toString(36).slice(2, 10);
 }
 
