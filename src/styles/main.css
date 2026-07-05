@@ -40,3 +40,7 @@ body {
 #app {
   padding: 24px;
 }
+
+.hidden {
+  display: none;
+}
