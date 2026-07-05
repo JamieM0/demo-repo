@@ -5,7 +5,7 @@ A tiny, dependency-free task tracker used as a demo/playground repo for exercisi
 
 ## Running it
 
-Open `index.html` in a browser. That's it — no build step.
+Open `index.html` in a browser, or run `npm start` to serve it over HTTP on port 8080.
 
 ## Project layout
 
